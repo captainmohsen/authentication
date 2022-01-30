@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 12:52+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: authentication/apps/customer/authentication.py:32
+msgid "Invalid token."
+msgstr ""
+
+#: authentication/apps/customer/authentication.py:35
+msgid "User inactive or deleted."
+msgstr ""
+
+#: authentication/apps/customer/authentication.py:43
+msgid "Token has expired."
+msgstr ""
+
+#: authentication/apps/customer/authentication.py:54
+msgid "Invalid token. No credentials provided."
+msgstr ""
+
+#: authentication/apps/customer/authentication.py:57
+msgid "Invalid token. Token string should not contain spaces."
+msgstr ""
+
+#: authentication/apps/customer/authentication.py:64
+msgid ""
+"Invalid token header. Token string should not contain invalid characters."
+msgstr ""
+
+#: authentication/apps/customer/models.py:25
+msgid "email address"
+msgstr ""
+
+#: authentication/apps/customer/models.py:32
+#: authentication/apps/customer/serializers.py:24
+#: authentication/apps/customer/serializers.py:127
+msgid "This email already used"
+msgstr ""
+
+#: authentication/apps/customer/models.py:33
+#: authentication/apps/customer/models.py:34
+#: authentication/apps/customer/serializers.py:18
+#: authentication/apps/customer/serializers.py:19
+#: authentication/apps/customer/serializers.py:121
+#: authentication/apps/customer/serializers.py:122
+msgid "Enter a valid email address"
+msgstr ""
+
+#: authentication/apps/customer/models.py:39
+msgid "mobile"
+msgstr ""
+
+#: authentication/apps/customer/models.py:48
+#: authentication/apps/customer/models.py:54
+#: authentication/apps/customer/models.py:55
+#: authentication/apps/customer/serializers.py:35
+#: authentication/apps/customer/serializers.py:44
+#: authentication/apps/customer/serializers.py:45
+#: authentication/apps/customer/serializers.py:141
+#: authentication/apps/customer/serializers.py:195
+#: authentication/apps/customer/serializers.py:204
+#: authentication/apps/customer/serializers.py:205
+msgid "Enter a valid mobile"
+msgstr ""
+
+#: authentication/apps/customer/models.py:53
+msgid "This mobile already used"
+msgstr ""
+
+#: authentication/apps/customer/models.py:60
+msgid "telephone"
+msgstr ""
+
+#: authentication/apps/customer/models.py:66
+#: authentication/apps/customer/models.py:67
+msgid "Enter a valid telephone"
+msgstr ""
+
+#: authentication/apps/customer/models.py:76
+msgid "postal code"
+msgstr ""
+
+#: authentication/apps/customer/models.py:82
+#: authentication/apps/customer/models.py:83
+msgid "Enter a valid postal code"
+msgstr ""
+
+#: authentication/apps/customer/models.py:100
+msgid "Ensure Password has at least one digit"
+msgstr ""
+
+#: authentication/apps/customer/models.py:104
+msgid "Ensure Password has at least one latin letter"
+msgstr ""
+
+#: authentication/apps/customer/models.py:108
+msgid "Password required"
+msgstr ""
+
+#: authentication/apps/customer/models.py:118
+msgid "active"
+msgstr ""
+
+#: authentication/apps/customer/models.py:121
+msgid ""
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
+msgstr ""
+
+#: authentication/apps/customer/models.py:127
+msgid "Token lifetime in seconds."
+msgstr ""
+
+#: authentication/apps/customer/models.py:156
+msgid "Female"
+msgstr ""
+
+#: authentication/apps/customer/models.py:160
+msgid "Male"
+msgstr ""
+
+#: authentication/apps/customer/models.py:164
+msgid "Unsure"
+msgstr ""
+
+#: authentication/apps/customer/models.py:179
+#: authentication/apps/customer/models.py:210
+msgid "national code"
+msgstr ""
+
+#: authentication/apps/customer/models.py:186
+#: authentication/apps/customer/models.py:217
+#: authentication/apps/customer/serializers.py:55
+msgid "This national code already used"
+msgstr ""
+
+#: authentication/apps/customer/models.py:187
+#: authentication/apps/customer/models.py:218
+#: authentication/apps/customer/serializers.py:59
+#: authentication/apps/customer/validators.py:9
+#: authentication/apps/customer/validators.py:14
+msgid "Enter a valid national code"
+msgstr ""
+
+#: authentication/apps/customer/serializers.py:40
+#: authentication/apps/customer/serializers.py:200
+msgid "This mobile number already used"
+msgstr ""
+
+#: authentication/apps/customer/serializers.py:67
+#: authentication/apps/customer/serializers.py:155
+msgid "Either mobile or email must be supplied"
+msgstr ""
+
+#: authentication/apps/customer/serializers.py:69
+#: authentication/apps/customer/serializers.py:157
+msgid "Just use one of email or mobile"
+msgstr ""
+
+#: authentication/apps/customer/serializers.py:72
+msgid "User must agree with policy to register"
+msgstr ""
+
+#: authentication/apps/customer/serializers.py:153
+msgid "Recaptcha required"
+msgstr ""
+
+#: authentication/apps/customer/serializers.py:174
+msgid "Ensure this field has at least one digit."
+msgstr ""
+
+#: authentication/apps/customer/serializers.py:178
+msgid "Ensure this field has at least one latin letter."
+msgstr ""
+
+#: authentication/apps/customer/serializers.py:185
+msgid "new password same as old password."
+msgstr ""
+
+#: authentication/apps/customer/views.py:67
+msgid "Email already activated"
+msgstr ""
+
+#: authentication/apps/customer/views.py:73
+msgid "Email Verification Request Not Found"
+msgstr ""
+
+#: authentication/apps/customer/views.py:81
+msgid "Expired"
+msgstr ""
+
+#: authentication/apps/customer/views.py:125
+msgid ""
+"You must wait {django_settings."
+"AUTHENTICATION_CUSTOMER['EMAIL_VERIFICATION_RESEND_TIME_LIMIT'] - "
+"(get_local_time() - temp.created_at)} to request to resend email"
+msgstr ""
+
+#: authentication/apps/customer/views.py:133
+msgid "Email resent"
+msgstr ""
+
+#: authentication/apps/customer/views.py:168
+msgid "Email sent"
+msgstr ""
+
+#: authentication/apps/customer/views.py:187
+msgid "Wrong Captcha."
+msgstr ""
+
+#: authentication/apps/customer/views.py:204
+#, python-format
+msgid "Username is locked out. Try in %s minutes."
+msgstr ""
+
+#: authentication/apps/customer/views.py:221
+msgid "Invalid username/password."
+msgstr ""
+
+#: authentication/apps/customer/views.py:230
+msgid "Customer account is disabled."
+msgstr ""
+
+#: authentication/apps/customer/views.py:258
+msgid "logout and token removed"
+msgstr ""
+
+#: authentication/apps/customer/views.py:283
+msgid "Password has been successfully updated and you log out."
+msgstr ""
+
+#: authentication/apps/customer/views.py:305
+msgid "Code expired"
+msgstr ""
+
+#: authentication/apps/customer/views.py:321
+msgid "Invalid code"
+msgstr ""
+
+#: authentication/apps/customer/views.py:339
+msgid ""
+"You must wait {django_settings.AUTHENTICATION_CUSTOMER['OTP_EXPIRE_TIME'] - "
+"(get_local_time() - temp.created_at)} to request to resend code"
+msgstr ""
+
+#: authentication/apps/customer/views.py:346
+msgid "Code resent"
+msgstr ""
+
+#: authentication/apps/customer/views.py:365
+msgid "Code sent"
+msgstr ""
+
+#: authentication/settings/base_settings.py:153
+msgid "English"
+msgstr ""
+
+#: authentication/settings/base_settings.py:154
+msgid "Persian"
+msgstr ""
+
+#: authentication/views.py:17
+msgid "Khallagh Borhan"
+msgstr "خلاق برهان"
